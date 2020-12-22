@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="datasetReport" targetNamespace="http://tempuri.org/datasetReport.xsd" xmlns:mstns="http://tempuri.org/datasetReport.xsd" xmlns="http://tempuri.org/datasetReport.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="datasetReport" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="datasetReport" msprop:Generator_UserDSName="datasetReport">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="todo" msprop:Generator_TableClassName="todoDataTable" msprop:Generator_TableVarName="tabletodo" msprop:Generator_TablePropName="todo" msprop:Generator_RowDeletingName="todoRowDeleting" msprop:Generator_RowChangingName="todoRowChanging" msprop:Generator_RowEvHandlerName="todoRowChangeEventHandler" msprop:Generator_RowDeletedName="todoRowDeleted" msprop:Generator_UserTableName="todo" msprop:Generator_RowChangedName="todoRowChanged" msprop:Generator_RowEvArgName="todoRowChangeEvent" msprop:Generator_RowClassName="todoRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="code" msprop:Generator_ColumnVarNameInTable="columncode" msprop:Generator_ColumnPropNameInRow="code" msprop:Generator_ColumnPropNameInTable="codeColumn" msprop:Generator_UserColumnName="code" type="xs:string" minOccurs="0" />
+              <xs:element name="title" msprop:Generator_ColumnVarNameInTable="columntitle" msprop:Generator_ColumnPropNameInRow="title" msprop:Generator_ColumnPropNameInTable="titleColumn" msprop:Generator_UserColumnName="title" type="xs:string" minOccurs="0" />
+              <xs:element name="description" msprop:Generator_ColumnVarNameInTable="columndescription" msprop:Generator_ColumnPropNameInRow="description" msprop:Generator_ColumnPropNameInTable="descriptionColumn" msprop:Generator_UserColumnName="description" type="xs:string" minOccurs="0" />
+              <xs:element name="assign_to" msprop:Generator_ColumnVarNameInTable="columnassign_to" msprop:Generator_ColumnPropNameInRow="assign_to" msprop:Generator_ColumnPropNameInTable="assign_toColumn" msprop:Generator_UserColumnName="assign_to" type="xs:string" minOccurs="0" />
+              <xs:element name="done_flag" msprop:Generator_ColumnVarNameInTable="columndone_flag" msprop:Generator_ColumnPropNameInRow="done_flag" msprop:Generator_ColumnPropNameInTable="done_flagColumn" msprop:Generator_UserColumnName="done_flag" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

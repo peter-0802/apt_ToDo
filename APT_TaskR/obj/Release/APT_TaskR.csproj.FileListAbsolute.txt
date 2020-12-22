@@ -1,0 +1,20 @@
+D:\Projects\ToDo\APT_TaskR\APT_TaskR\bin\Release\APT TASKR.exe.config
+D:\Projects\ToDo\APT_TaskR\APT_TaskR\bin\Release\x64\SQLite.Interop.dll
+D:\Projects\ToDo\APT_TaskR\APT_TaskR\bin\Release\x86\SQLite.Interop.dll
+D:\Projects\ToDo\APT_TaskR\APT_TaskR\bin\Release\apt_taskr.db
+D:\Projects\ToDo\APT_TaskR\APT_TaskR\bin\Release\APT TASKR.exe.manifest
+D:\Projects\ToDo\APT_TaskR\APT_TaskR\bin\Release\APT TASKR.application
+D:\Projects\ToDo\APT_TaskR\APT_TaskR\bin\Release\APT TASKR.exe
+D:\Projects\ToDo\APT_TaskR\APT_TaskR\bin\Release\APT TASKR.pdb
+D:\Projects\ToDo\APT_TaskR\APT_TaskR\bin\Release\System.Data.SQLite.dll
+D:\Projects\ToDo\APT_TaskR\APT_TaskR\bin\Release\System.Data.SQLite.xml
+D:\Projects\ToDo\APT_TaskR\APT_TaskR\obj\Release\APT_TaskR.csprojResolveAssemblyReference.cache
+D:\Projects\ToDo\APT_TaskR\APT_TaskR\obj\Release\APT_TaskR.Dash.resources
+D:\Projects\ToDo\APT_TaskR\APT_TaskR\obj\Release\APT_TaskR.addTask.resources
+D:\Projects\ToDo\APT_TaskR\APT_TaskR\obj\Release\APT_TaskR.Properties.Resources.resources
+D:\Projects\ToDo\APT_TaskR\APT_TaskR\obj\Release\APT_TaskR.validate.resources
+D:\Projects\ToDo\APT_TaskR\APT_TaskR\obj\Release\APT_TaskR.csproj.GenerateResource.Cache
+D:\Projects\ToDo\APT_TaskR\APT_TaskR\obj\Release\APT TASKR.exe.manifest
+D:\Projects\ToDo\APT_TaskR\APT_TaskR\obj\Release\APT TASKR.application
+D:\Projects\ToDo\APT_TaskR\APT_TaskR\obj\Release\APT TASKR.exe
+D:\Projects\ToDo\APT_TaskR\APT_TaskR\obj\Release\APT TASKR.pdb
