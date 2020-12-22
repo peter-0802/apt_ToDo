@@ -16,6 +16,8 @@ using iTextSharp.text;
 using iTextSharp.text.pdf;
 using iTextSharp.text.pdf.parser;
 using System.Resources;
+using System.Net;
+using System.IO.Compression;
 
 namespace APT_TaskR
 {
@@ -299,6 +301,25 @@ namespace APT_TaskR
         private void Dash_Load(object sender, EventArgs e)
         {
 
+        }
+        private void ProgressChanged(object sender, DownloadProgressChangedEventArgs e)
+        {
+            progressBar.Value = e.ProgressPercentage;
+        }
+
+        private void Completed(object sender, AsyncCompletedEventArgs e)
+        {
+            MessageBox.Show("Download completed!");
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            WebClient webClient = new WebClient();
+            webClient.DownloadFileCompleted += new AsyncCompletedEventHandler(Completed);
+            webClient.DownloadProgressChanged += new DownloadProgressChangedEventHandler(ProgressChanged);
+            //webClient.DownloadFileAsync(new Uri("https://github.com/peter-0802/apt_ToDo/tree/main/APT_TaskR/bin/Debug"), @"c:\myfile.txt");
+            webClient.DownloadFileAsync(new Uri("https://github.com/peter-0802/apt_ToDo/tree/main/APT_TaskR/bin/Debug"), ".//Update.zip");
+            //MessageBox.Show(System.Reflection.Assembly.GetEntryAssembly().Location.ToString());
         }
     }
 }

@@ -43,14 +43,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="APT TASKR.exe" size="3110304">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="APT TASKR.exe" size="3111840">
       <assemblyIdentity name="APT TASKR" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>u8QhNhYxQnz1kGjoeTO6El6Q0oSuHsiQAcTya2jHbwY=</dsig:DigestValue>
+        <dsig:DigestValue>9/OJ6InJ++nEhCryqkycFm0zSxjDhWyneETtTCEmlCU=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -381,7 +381,7 @@
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>F0maTFJZGLwLbfDtID//1HZma7FioGUTU7bYxHGb+z0=</dsig:DigestValue>
+      <dsig:DigestValue>xIq6zUZxUXAckUQXeEZlMrM4bkvcBZxD5JE5Egoj87Q=</dsig:DigestValue>
     </hash>
   </file>
   <file name="Umut-Pulat-Tulliana-2-Korganizer-todo.ico" size="323590">
